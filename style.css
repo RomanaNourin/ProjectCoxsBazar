@@ -339,6 +339,7 @@ section{
     transform: scale(1.1);
 }
 .history-text h3{
+    text-align: center;
     color: rgb(219, 179, 70);
 }
 .history-text, .history-img{
@@ -348,6 +349,7 @@ section{
 .history-text{
     /* box-shadow: 0 5px 15px rgb(0 0 0 / 20%); */
     transition: all 0.3s linear;
+    text-align: justify;
     margin: 20px auto;
 }
 
@@ -474,7 +476,7 @@ section{
     position: absolute;
     left: 0;
     bottom: 0;
-    padding: .75rem 1rem;
+    padding: .4rem .5rem;
 }
 /* .spots-data{
     position: absolute;
@@ -500,7 +502,8 @@ section{
     box-shadow: 0 0 40px -10px rgb(0 0 0 / 50%);
 
 }
-.spots-data h2{
+.spots-data h3{
+    margin-top: 2.5rem;
     font-weight: 300px;
 }
 .spots-data .map-btn p{
@@ -710,8 +713,9 @@ section{
     
 }
 .cimg-container .box .details .img-content p{
-    margin: 10px 0 0;
+    margin: 10px;
     padding: 0;
+    text-align: justify;
     
 }
 .wrapper section{
@@ -735,6 +739,7 @@ section{
     transition: transform 2s;
 }
 .content-2 .cimg-container .box .details{
+    padding: 10px;
     position: absolute;
     top: 10px;
     left: 10px;
@@ -744,6 +749,10 @@ section{
     transform: scaleY(0);
     transition: transform .5s;
 
+}
+.content-2 .cimg-container p{
+    margin: 5px;
+    text-align: justify;
 }
 .content-2 .cimg-container .box:hover .details{
     transform: scaleY(1);
@@ -777,6 +786,9 @@ section{
     height: 21rem;
     max-width: 100%;
     transition: transform 2s;
+}
+.content-3 .cimg-container p{
+    text-align: justify;
 }
 /* .gslider{
 	max-width: 700px;
@@ -1142,7 +1154,7 @@ section{
     flex-direction: column;
     margin-right: 4%;
 } */
-.input-box input{
+.input-box input, textarea{
   margin: 10px 0;
   background: transparent;
   border: 0px;
